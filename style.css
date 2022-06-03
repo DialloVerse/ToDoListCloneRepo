@@ -59,6 +59,9 @@ div#header div#inputs-container input#todo-input:focus {
 
 div#header div#input-container input#todo-input::placeholder {
     color: transparent;
+    background: #fef3b6;
+    padding-top: 0px;
+    border-radius: 20px;
 }
 
 div#header div#input-container label {
@@ -72,7 +75,7 @@ div#header div#input-container label {
     font-weight: 600;
 }
 
-div#header div#input-container input#todo-input:placeholder-shown ~
+div#header div#input-container input#todo-input placeholder-shown ~
 label {
     top: 45px;
     color: rgb(248, 247, 247);
@@ -89,8 +92,13 @@ div#header div#input-container input#todo-input:focus ~ label {
 
 div#header button#todo-add-btn {
     background-color: #845ec2;
-    color: rgb(221, 221, 221);
+    color: rgb(203, 74, 74);
     font-size: 35px;
     border-radius: 20px;
     width: 200px;
+}
+
+div#header div#ul div#input-checkbox input#todo-list:focus ~ label {
+    background-color: #b91c1c;
+    color: purple;
 }
