@@ -98,7 +98,7 @@ div#header button#todo-add-btn {
     width: 200px;
 }
 
-div#header div#ul div#input-checkbox input#todo-list:focus ~ label {
+div#header div#ul div#input-checkbox #todo-list:focus ~ label {
     background-color: #b91c1c;
     color: purple;
 }
