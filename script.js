@@ -4,6 +4,7 @@ var addInput = document.getElementById("todo-input");
 
 function createTodo() {
   var text = addInput.value;
+  console.warn(text);
 
   if (text === "") {
     return;
@@ -21,7 +22,7 @@ function createTodo() {
 
   var remove = document.createElement("span");
   remove.classList.add("remove");
-  remove.innerHTML = "&#10007;";
+  remove.innerHTML = "✗";
 
   li.appendChild(checkbox);
   li.appendChild(paragraph);
