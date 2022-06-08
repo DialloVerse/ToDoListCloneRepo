@@ -117,7 +117,7 @@ div#input[type=checkbox]:checked {
     border-radius: 20px;
   }
 
-  div#input li.element.style {
-    background: border-box;
-    background-color: orangered;
+.div#input li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
