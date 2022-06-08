@@ -111,7 +111,13 @@ div#input[type=checkbox]:checked {
     background:red;
     background-color: #f8e808;
     text-decoration: pink;
+    text-align: justify;
     padding: 20px;
-    width: 100px;
+    width: 200px;
     border-radius: 20px;
   }
+
+  div#input li.element.style {
+    background: border-box;
+    background-color: orangered;
+}
