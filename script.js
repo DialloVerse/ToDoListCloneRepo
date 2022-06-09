@@ -11,6 +11,7 @@ function createTodo() {
   }
 
   var li = document.createElement("li");
+  li.classList.add("todo-list-item");
 
   var checkbox = document.createElement("input");
   checkbox.classList.add("checkbox");

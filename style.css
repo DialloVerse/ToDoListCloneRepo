@@ -20,8 +20,8 @@ input {
 }
 
 div.container {
-    margin: 50px auto;
-    max-width: 500px;
+    max-width: 80%;
+    margin: auto;
 }
 
 h1#title {
@@ -117,7 +117,16 @@ div#input[type=checkbox]:checked {
     border-radius: 20px;
   }
 
-.div#input li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+.todo-list-item{
+    background: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
 }
+
+.checkbox{
+    height: 50px;
+}
+
